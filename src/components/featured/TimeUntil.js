@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Slide from 'react-reveal/Slide'
+import React, { Component } from 'react';
+import Slide from 'react-reveal/Slide';
 
 export default class TimeUntil extends Component {
 
