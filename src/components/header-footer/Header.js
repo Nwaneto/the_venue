@@ -57,7 +57,7 @@ export default class Header extends Component {
                     <IconButton
                         aria-label="Menu"
                         color="inherit"
-                        onClick={(value)=>this.toggleDrawer(true)}
+                        onClick={()=>this.toggleDrawer(true)}
                     
                     >
 
@@ -66,7 +66,7 @@ export default class Header extends Component {
 
                     <SideDrawer
                         open={this.state.drawerOpen}
-                        onClose={(value)=> this.toggleDrawer(true)}
+                        onClose={(value)=> this.toggleDrawer(value)}
                     />
 
                 </ToolBar>
